@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
@@ -10,38 +9,31 @@ body {
 	color: #222;
 	background-color: #ffffff;
 }
-
 .navbar {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #333;
 	padding: 0 10px;
 }
-
 .navbar a {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 12px 16px;
 }
-
 .navbar a:hover {
 	background-color: #555;
 }
-
 .navbar a.active {
 	background-color: #0066cc;
 }
-
 .container {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
-
 h1, h2 {
 	margin-top: 0;
 }
-
 button {
 	padding: 8px 14px;
 	font-size: 16px;
@@ -49,19 +41,74 @@ button {
 	border: 1px solid #333;
 	background-color: #f0f0f0;
 }
-
 button:hover {
 	background-color: #e0e0e0;
 }
-
 input {
 	padding: 8px;
 	font-size: 16px;
 	border: 1px solid #333;
 }
-
 code {
 	background-color: #f0f0f0;
 	padding: 2px 5px;
 	font-family: monospace;
+}
+.style-box {
+	border: 1px solid #333;
+	padding: 20px;
+	margin-bottom: 15px;
+	background-color: #ffffff;
+	font-size: 16px;
+}
+.item-list {
+	margin-top: 15px;
+}
+.hover-box {
+	width: 200px;
+	height: 120px;
+	border: 1px solid #333;
+	background-color: #dddddd;
+	text-align: center;
+	line-height: 120px;
+}
+.output {
+	margin-top: 15px;
+}
+.calc-row {
+	margin-bottom: 15px;
+}
+.calc-row input {
+	width: 160px;
+	margin-right: 10px;
+}
+.calc-row button {
+	width: 50px;
+	margin-right: 5px;
+}
+.todo-form {
+	margin-bottom: 15px;
+}
+.todo-form input {
+	width: 250px;
+	margin-right: 10px;
+}
+.task-list {
+	list-style: none;
+	padding: 0;
+}
+.task-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #333;
+	padding: 8px 12px;
+	margin-bottom: 8px;
+}
+.task-text {
+	cursor: pointer;
+}
+.task-text.done {
+	text-decoration: line-through;
+	color: #888;
 }
